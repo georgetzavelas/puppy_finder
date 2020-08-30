@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>org.georgetzavelas.puppy-finder</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/georgetzavelas/src/puppy_finder/find_dogs.sh</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/georgetzavelas/src/puppy_finder</string>
+    <key>StandardOutPath</key>
+    <string>/Users/georgetzavelas/src/puppy_finder/puppy_finder.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/georgetzavelas/src/puppy_finder/puppy_finder.log</string>
+    <!-- Run every hour -->
+    <key>StartInterval</key>
+    <integer>3600</integer><!-- seconds -->
+</dict>
+</plist>
