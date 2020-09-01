@@ -1,7 +1,7 @@
 ## Puppy Finder
 
-A collection of python scripts that use Beautiful Soup to scrape some of the more common dog sites around Ottawa and 
-when it finds a new dog, send you a SMS.
+A collection of python scripts to help you find a dog! It uses Beautiful Soup to scrape some of the more common dog sites around Ottawa and 
+when it finds a new dog, send you a SMS. Inspired by the work of https://github.com/KaraDaviduik!
 
 ### Configuration
 Sign up for a Twilio developer account and use the money you get from the initial signup to buy a virtual phone number 
